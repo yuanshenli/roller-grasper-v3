@@ -247,7 +247,7 @@ if __name__ == '__main__':
     parser.add_argument("--dataset_dir", type=str, default="data/collision_dataset",
                         help="directory of collision dataset")
     parser.add_argument("--obj_type", type=str, help="object type",
-                        choices=["cube", "rectangular", "cube_w_opening", "mug", "prism_w_handle"])
+                        choices=["cube", "rectangular", "cube_w_opening", "mug"])
     parser.add_argument("--train_steps", type=int, default=int(1e6), help="number of training steps")
     parser.add_argument("--seed", type=int, default=0, help="random seed")
     args = parser.parse_args()
